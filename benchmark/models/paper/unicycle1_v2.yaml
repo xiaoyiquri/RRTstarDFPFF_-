@@ -1,0 +1,11 @@
+# Paper VII-A published dynamics; undocumented geometry/dt retained.
+dynamics: "unicycle1"
+max_vel: 2
+min_vel: 0
+# 1.0  0.25
+max_angular_vel: 2
+min_angular_vel: -2
+size: [.5, .25]
+distance_weights: [1, .5]
+shape: "box"
+dt: .1
